@@ -1,0 +1,10 @@
+// /home/server/zephyr-semihost/build/zephyr/zephyr_pre0.elf
+digraph "Device dependency graph" {
+	27 [label="eic@40002800\nOrdinal: 27 | Handle: 1\n/soc/eic@40002800"]
+	13 [label="gpio@41000100\nOrdinal: 13 | Handle: 2\n/soc/pinctrl@41000000/gpio@41000100"]
+	8 [label="gpio@41000080\nOrdinal: 8 | Handle: 3\n/soc/pinctrl@41000000/gpio@41000080"]
+	56 [label="gpio@41000000\nOrdinal: 56 | Handle: 4\n/soc/pinctrl@41000000/gpio@41000000"]
+	38 [label="sercom@42001400\nOrdinal: 38 | Handle: 5\n/soc/sercom@42001400"]
+	35 [label="sercom@42000c00\nOrdinal: 35 | Handle: 6\n/soc/sercom@42000c00"]
+	31 [label="sercom@42000400\nOrdinal: 31 | Handle: 7\n/soc/sercom@42000400"]
+}
