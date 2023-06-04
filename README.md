@@ -30,6 +30,12 @@ I have set up a repository, for anyone to try to reproduce this issue:
 
 ```bash
 git clone https://github.com/maksimdrachov/zephyr-semihost
+cd zephyr-semihost
+git clone git@github.com:zephyrproject-rtos/zephyr.git
+cd zephyr 
+git checkout c22c4fd49f6671079cd9df19d4c22678294be87d 
+cd ..
+west update
 ```
 
 (This will work with `atsamc21n_xpro`, if you want to test with a different board: don't forget to update `scripts/openocd.cfg`)
